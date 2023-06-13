@@ -31,7 +31,9 @@ const { title, description, img, href, githubUrl } = Astro.props;
       <ExternalLinkIcon class="h-4 w-4" aria-hidden="true" />
     </div>
 
-    <div class="w-full aspect-[4/3] bg-zinc-100 rounded-t-lg"></div>
+    <div class="w-full aspect-[4/3] bg-zinc-100 rounded-t-lg overflow-hidden">
+      <img src={img.url} alt={img.alt} />
+    </div>
     <div class="px-4 pt-4 flex flex-col items-start">
       <h3
         class="text-base font-semibold tracking-tight leading-4 pt-2 pb-[2px] border-b transition ease-in-out border-transparent group-hover:border-zinc-900"
