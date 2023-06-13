@@ -1,17 +1,37 @@
 ---
 import Gutter from "../layouts/Gutter.astro";
+import GithubIcon from "./icons/GithubIcon.astro";
+import LinkedInIcon from "./icons/LinkedInIcon.astro";
 ---
 
 <footer class="border-t border-zinc-900/10 pt-8 pb-12 bg-zinc-50">
   <Gutter>
-    <p class="text-sm text-zinc-600">
-      Made by
+    <div class="flex items-center justify-between">
+      <p class="text-sm text-zinc-500">
+        Made by
 
-      <a
-        href="https://github.com/ihusemann"
-        class="underline underline-offset-2 text-zinc-600 hover:text-zinc-900 transition-all ease-out"
-        >Isaac Husemann</a
-      >
-    </p>
+        <a
+          href="https://github.com/ihusemann"
+          class="underline underline-offset-2 text-zinc-500 hover:text-zinc-900 transition-all ease-out"
+          >Isaac Husemann</a
+        >
+      </p>
+      <div class="flex items-center space-x-4">
+        <a
+          href="https://www.linkedin.com/in/ihusemann/"
+          class="p-1 rounded-full text-zinc-500 transition ease-in-out hover:text-zinc-900"
+        >
+          <LinkedInIcon class="h-5 w-5" aria-hidden="true" />
+          <span class="sr-only">Visit my Github profile</span>
+        </a>
+        <a
+          href="https://github.com/ihusemann"
+          class="p-1 rounded-full fill-zinc-500 transition ease-in-out hover:fill-zinc-900"
+        >
+          <GithubIcon class="h-6 w-6" aria-hidden="true" />
+          <span class="sr-only">Visit my Github profile</span>
+        </a>
+      </div>
+    </div>
   </Gutter>
 </footer>
