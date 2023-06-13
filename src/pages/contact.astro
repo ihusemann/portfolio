@@ -1,11 +1,49 @@
 ---
+import GithubIcon from "../components/icons/GithubIcon.astro";
+import LinkedInIcon from "../components/icons/LinkedInIcon.astro";
+import MailIcon from "../components/icons/MailIcon.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Gutter from "../layouts/Gutter.astro";
 ---
 
 <BaseLayout>
-  <h1
-    class="text-5xl font-semibold leading-tight tracking-tight text-left max-w-3xl"
-  >
-    Get in touch.
-  </h1>
+  <Gutter>
+    <div class="max-w-2xl mx-auto">
+      <h1
+        class="text-5xl md:text-6xl font-bold leading-tight tracking-tight max-w-4xl text-zinc-900"
+      >
+        Let's get in touch!
+      </h1>
+      <p class="text-lg leading-relaxed text-zinc-600 mt-8 max-w-2xl">
+        I'm Isaac, a full-stack developer based in Chicago with a focus on
+        React. I design and build enterprise-scale full-stack applications.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-3 mt-10 gap-4">
+        <a
+          href="mailto:isaac.husemann@gmail.com"
+          class="w-full border border-zinc-900 bg-white flex items-center rounded-lg justify-center py-2 px-4 text-zinc-900 font-medium hover:text-zinc-50 hover:bg-zinc-900 transition ease-in-out"
+        >
+          <MailIcon class="h-5 w-5 mr-2" aria-hidden="true" />
+          <span>Email</span>
+        </a>
+        <a
+          href="https://github.com/ihusemann"
+          class="w-full border border-zinc-900 group bg-white flex items-center rounded-lg justify-center py-2 px-4 text-zinc-900 font-medium hover:text-zinc-50 hover:bg-zinc-900 transition ease-in-out"
+        >
+          <GithubIcon
+            class="h-5 w-5 mr-2 fill-zinc-900 group-hover:fill-zinc-50"
+            aria-hidden="true"
+          />
+          <span>Github</span>
+        </a>
+        <a
+          href="https://linkedin.com/in/ihusemann"
+          class="w-full border border-zinc-900 bg-white flex items-center rounded-lg justify-center py-2 px-4 text-zinc-900 font-medium hover:text-zinc-50 hover:bg-zinc-900 transition ease-in-out"
+        >
+          <LinkedInIcon class="h-5 w-5 mr-2" aria-hidden="true" />
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </div>
+  </Gutter>
 </BaseLayout>
