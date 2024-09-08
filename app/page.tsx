@@ -31,19 +31,19 @@ export default function Home() {
         <div className="w-full max-w-sm px-6 mx-auto flex items-center justify-center">
           <Link
             href="https://github.com/ihusemann"
-            className="text-zinc-400 text-sm font-mono px-3 py-1.5 rounded-lg hover:bg-white hover:bg-opacity-[2%] transition ease-out"
+            className="text-zinc-400 text-sm font-mono px-3 py-1.5 rounded-lg hover:bg-white hover:bg-opacity-[3.5%] hover:text-zinc-300 transition ease-out"
           >
             github
           </Link>
           <Link
             href="https://linkedin.com/in/ihusemann"
-            className="text-zinc-400 text-sm font-mono px-3 py-1.5 rounded-lg hover:bg-white hover:bg-opacity-[2%] transition ease-out"
+            className="text-zinc-400 text-sm font-mono px-3 py-1.5 rounded-lg hover:bg-white hover:bg-opacity-[3.5%] hover:text-zinc-300 transition ease-out"
           >
             linkedin
           </Link>
           <Link
             href="mailto:isaac.husemann@gmail.com"
-            className="text-zinc-400 text-sm font-mono px-3 py-1.5 rounded-lg hover:bg-white hover:bg-opacity-[2%] transition ease-out"
+            className="text-zinc-400 text-sm font-mono px-3 py-1.5 rounded-lg hover:bg-white hover:bg-opacity-[3.5%] hover:text-zinc-300 transition ease-out"
           >
             email
           </Link>
