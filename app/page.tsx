@@ -3,8 +3,8 @@ import ProjectLink from "./project-link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen min-w-screen grid grid-cols-1 grid-rows-[1fr,auto]">
-      <main className="h-full flex flex-col items-center sm:justify-center px-4 sm:px-8">
+    <div className="min-h-screen min-w-screen flex flex-col">
+      <main className="h-full flex flex-col items-center sm:justify-center px-4 sm:px-8 grow">
         <div className="w-full max-w-sm mx-auto">
           <div className="px-6 pt-12">
             <h1 className="text-3xl font-semibold">Isaac Husemann</h1>
