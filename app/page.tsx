@@ -3,7 +3,7 @@ import ProjectLink from "./project-link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen min-w-screen flex flex-col">
+    <div className="sm:min-h-screen min-w-screen flex flex-col">
       <main className="h-full flex flex-col items-center sm:justify-center px-4 sm:px-8 grow">
         <div className="w-full max-w-sm mx-auto">
           <div className="px-6 pt-12">
@@ -27,7 +27,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <div className="pb-6 pt-4 px-4 sm:px-8">
+      <div className="pb-6 pt-8 sm:pt-4 px-4 sm:px-8">
         <div className="w-full max-w-sm px-6 mx-auto flex items-center justify-center">
           <Link
             href="https://github.com/ihusemann"
