@@ -9,7 +9,8 @@ export default function Home() {
           <div className="px-6 pt-12">
             <h1 className="text-3xl font-semibold">Isaac Husemann</h1>
             <p className="text-base mt-0.5 text-zinc-500">
-              Full-stack developer
+              Passionate full-stack developer skilled at React, Node.js, and
+              TypeScript.
             </p>
           </div>
 
